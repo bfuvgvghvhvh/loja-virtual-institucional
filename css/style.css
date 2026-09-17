@@ -1,0 +1,42 @@
+/* 1. Seletor Universal: Zera as margens e espaçamentos de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 2. Seletor de Classe: Estiliza o título com uma cor */
+.titulo {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+/* 3. Seletor de ID: Tamanho de fonte maior para a descrição */
+#descricao {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* 4. Seletor de Classe: Estiliza os parágrafos simples */
+.paragrafo-simples {
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+/* 5. Seletor Descendente: Estiliza todos os links dentro da tag nav */
+nav a {
+    color: #d63384;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+
