@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 07 - Estrutura Semântica</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Loja de Maquiagem - Início</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <!-- O header fornece o fundo escuro para o menu aparecer -->
     <header>
-        <h1>Meu Site</h1>
+        <h1>Loja Beleza Radiante</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html" class="ativo">Início</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
@@ -23,18 +20,24 @@
     </header>
 
     <main>
-        <section id="sobre" style="border: 2px solid #333; margin: 20px; padding: 15px;">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Sou estudante focada em aprender desenvolvimento web.</p>
-            <p>Atualmente estou praticando a criação de estruturas semânticas com HTML5.</p>
+        <section class="card">
+            <h2>Bem-vinda à Beleza Radiante</h2>
+            <hr class="linha-divisoria">
+            <p>Sua loja especializada em produtos de maquiagem e cuidados com a pele.</p>
+            <p>Explore nosso catálogo para encontrar batons, bases, paletas e muito mais com a melhor qualidade do mercado.</p>
         </section>
 
-        <section id="projetos" style="border: 2px dashed #007ACC; margin: 20px; padding: 15px;">
-            <h2>Meus Projetos</h2>
-            <p>Nesta seção, organizo meus projetos práticos desenvolvidos na aula.</p>
+        <section class="card">
+            <h2>Nossos Destaques</h2>
+            <hr class="linha-divisoria">
+            <p>Oferecemos produtos de alta fixação, cruelty-free e perfeitos para qualquer ocasião.</p>
+            <p>Navegue pelo menu <strong>Produtos</strong> para conferir as ofertas imperdíveis!</p>
         </section>
     </main>
 
-</body>
+    <footer>
+        <p>&copy; 2026 Loja Beleza Radiante. Todos os direitos reservados.</p>
+    </footer>
 
+</body>
 </html>
